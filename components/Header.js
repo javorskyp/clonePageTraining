@@ -15,8 +15,8 @@ import {
     ShoppingCartIcon,
 } from "@heroicons/react/outline";
 
-function Header() {
-    return (
+export const Header = () => 
+     (
         <div className='sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md'>
             {/*Left*/}
             <div className="flex items-center">
@@ -53,6 +53,3 @@ function Header() {
             </div>
         </div>
     )
-}
-
-export default Header
