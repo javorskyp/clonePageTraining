@@ -10,26 +10,13 @@ export default function Home({ session }) {
       <Head>
         <title>DemoFacebook</title>
       </Head>
-
-      {/* Header */}
       <Header/>
-
-
-
-
-      <main>
-        {/* Sidebar */}
-        {/* Feed */}
-        {/* Widgets */}
-      </main>
-      
     </div>
   )
 }
 
 
 export async function getServerSideProps (context) {
-  //User get
   const session = await getSession(context);
 
   return {
