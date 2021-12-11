@@ -1,24 +1,11 @@
 import Image from "next/image";
 import HeaderIcon from '../components/HeaderIcon';
-import {
-    BellIcon,
-    ChatIcon,
-    ChevronDownIcon,
-    HomeIcon,
-    UserGroupIcon,
-    ViewGridIcon,
-} from "@heroicons/react/solid";
-import {
-    FlagIcon,
-    PlayIcon,
-    SearchIcon,
-    ShoppingCartIcon,
-} from "@heroicons/react/outline";
+import { BellIcon, ChatIcon, ChevronDownIcon, HomeIcon, UserGroupIcon, ViewGridIcon } from "@heroicons/react/solid";
+import { FlagIcon, PlayIcon, SearchIcon, ShoppingCartIcon } from "@heroicons/react/outline";
 
 export const Header = () => 
      (
         <div className='sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md'>
-            {/*Left*/}
             <div className="flex items-center">
                 <Image src="https://links.papareact.com/5me" 
                 width={40} 
@@ -33,7 +20,6 @@ export const Header = () =>
                 placeholder='Search Fb' />
               </div>  
             </div>
-               {/*C*/}
                <div className='flex justify-center flex-grow'>
                    <div className='flex space-x-6 md:space-x-2'>
                         <HeaderIcon active Icon={HomeIcon}/>
@@ -43,7 +29,6 @@ export const Header = () =>
                         <HeaderIcon Icon={UserGroupIcon}/>
                    </div>
                </div>
-                  {/*R*/}
             <div className='flex items-center sm:space-x-2 justify-end'>
                    <p className="whitespace-nowrap font-semibold pr-3">Hakuna Matata</p>
                    <ViewGridIcon className="icon"/>
