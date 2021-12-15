@@ -8,8 +8,8 @@ export const Header = () =>
         <div className='sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md'>
             <div className="flex items-center">
                 <Image src="https://links.papareact.com/5me" 
-                width={40} 
-                height={40} 
+                width={80} 
+                height={80} 
                 layout='fixed'
                 />
               <div className="flex ml-2 items-center rounded-full bg-gray-100 p-2">
